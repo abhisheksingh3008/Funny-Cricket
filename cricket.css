@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: rgb(159, 206, 206);
+}
+h1{
+    color:rgb(14, 14, 14);
+}
+.choice-button:hover{
+    border-bottom: 2px solid rgb(12, 12, 12);
+}
+.choice-button{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(199, 240, 137);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.choise-image{
+    height: 75px;
+}
+#reset_button{
+    background-color: rgb(240, 62, 62);
+    border: none;
+    height: 40px;
+    width: 60px;
+    font-weight: bold;
+    border-radius: 20px;
+    /* border-color: rgb(255, 255, 0);
+    box-shadow: 3px 3px 6px 6px rgba(101,175,10,0.5); */
+}
+#reset_button:hover{
+    border-bottom: 2px solid yellow;
+}
